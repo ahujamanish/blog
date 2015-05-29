@@ -16,7 +16,7 @@ RELATIVE_URLS = False
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
-THEME = "themes/svbtle"
+# THEME = "themes/svbtle"
 
 DELETE_OUTPUT_DIRECTORY = True
 

@@ -1,0 +1,3 @@
+[submodule "pelican-svbtle-responsive"]
+	path = pelican-svbtle-responsive
+	url = https://github.com/ahujamanish/pelican-svbtle-responsive
