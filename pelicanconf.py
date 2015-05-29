@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Manish Ahuja'
-SITENAME = u'Digital Dairy'
+SITENAME = u'Manish Ahuja | Blog'
 SITEURL = ''
 
 PATH = 'content'
@@ -21,13 +21,13 @@ TRANSLATION_FEED_ATOM = None
 LINKS = (('linkedIn', 'https://www.linkedin.com/profile/view?id=51979793&trk=nav_responsive_tab_profile'),
          ('facebook', 'https://www.facebook.com/its.manish.ahuja'))
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# # Social widget
+# SOCIAL = (('You can add links in your config file', '#'),
+#           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
-THEME = "themes/svbtle"
+THEME = "themes/subtle"
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
