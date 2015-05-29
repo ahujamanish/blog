@@ -38,39 +38,33 @@
 	<section id="posts">
 	<header>
 		<h1>Manish Ahuja's blog</h1>
-		<h3>
-			<script type="text/javascript">
-				var currentDate = new Date();
-				var day = currentDate.getDate();
-				var monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec" ];
-				var month = monthNames[currentDate.getMonth()].toUpperCase();
-				var year = currentDate.getFullYear();
-				document.write(month + " " + day + ", " + year);
-			</script>
-		</h3>
+		<h3>Posted Fri 29 May 2015</h3>
 	</header>
+	<article>
+		<h1 id="title">
+			<a href="http://ahujamanish.github.io/blog/ios8-push-notifications.html" rel="bookmark"
+				title="Permalink to Requesting Push Notifications permissions in iOS8">Requesting Push Notifications permissions in iOS8</a>
+		</h1>
+		<p>Request push notification permissions in iOS 8 is pretty simple. you first create <code>UIUserNotificationSettings</code> and then register the settings on <code>UIApplication</code>. </p>
+<p>UIUserNotificationSettings* notificationSettings = [UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound) categories:nil];
+    [[UIApplication sharedApplication] registerUserNotificationSettings:notificationSettings];
+    [[UIApplication sharedApplication] registerForRemoteNotifications];</p>
 
-	<dl>
-		<ol>
-				<li>
-					<h1 class="title">
-						<a href="http://ahujamanish.github.io/blog/yo-second-post.html" rel="bookmark" title="Permalink to My super title 2">My super title 2</a>
-					</h1>
-					<abbr class="published" title="2015-12-03T10:20:00+01:00">Thu 03 December 2015</abbr>
-				<div class="entry-content"> <p>Short version for index and feeds</p> </div>
-				</li>
-				<li>
-					<h1 class="title">
-						<a href="http://ahujamanish.github.io/blog/my-super-post.html" rel="bookmark" title="Permalink to My super title">My super title</a>
-					</h1>
-					<abbr class="published" title="2015-01-03T10:20:00+01:00">Sat 03 January 2015</abbr>
-				<div class="entry-content"> <p>Short version for index and feeds</p> </div>
-				</li>
-		</ol>
-	</dl>
+		<div id="article_meta">
+				Category:
+					<a href="http://ahujamanish.github.io/blog/category/misc.html">misc</a>
+				<br />Tags:
+					<a href="http://ahujamanish.github.io/blog/tag/iphone.html">iphone</a>
+					<a href="http://ahujamanish.github.io/blog/tag/ios8.html">ios8</a>
+					<a href="http://ahujamanish.github.io/blog/tag/push-notifications.html">push notifications</a>
+		</div>
+	</article>
 
-<p class="paginator">
-</p>
+	<footer>
+		<a href="http://ahujamanish.github.io/blog/" class="button_accent">&larr;&nbsp;&nbsp;&nbsp;Back to blog</a>
+	</footer>
+
+
 	</section>
 
 </body>
