@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Manish Ahuja'
 SITENAME = u'Manish Ahuja | Blog'
 SITEURL = ''
+TAGLINE = u"Full time iOS developer, newbie UI designer. Passionate for everything digital. That's me!"
 
 PATH = 'content'
 
