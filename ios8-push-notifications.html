@@ -45,10 +45,9 @@
 			<a href="http://ahujamanish.github.io/blog/ios8-push-notifications.html" rel="bookmark"
 				title="Permalink to Requesting Push Notifications permissions in iOS8">Requesting Push Notifications permissions in iOS8</a>
 		</h1>
-		<p>Request push notification permissions in iOS 8 is pretty simple. you first create <code>UIUserNotificationSettings</code> and then register the settings on <code>UIApplication</code>. </p>
-<p>UIUserNotificationSettings* notificationSettings = [UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound) categories:nil];
+		<p><code>UIUserNotificationSettings* notificationSettings = [UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound) categories:nil];
     [[UIApplication sharedApplication] registerUserNotificationSettings:notificationSettings];
-    [[UIApplication sharedApplication] registerForRemoteNotifications];</p>
+    [[UIApplication sharedApplication] registerForRemoteNotifications];</code></p>
 
 		<div id="article_meta">
 				Category:
