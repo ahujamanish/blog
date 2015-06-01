@@ -19,8 +19,9 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('linkedIn', 'https://www.linkedin.com/profile/view?id=51979793&trk=nav_responsive_tab_profile'),
-         ('facebook', 'https://www.facebook.com/its.manish.ahuja'))
+LINKS = (('twitter', 'http://twitter.com/ilovepixxels'),
+         ('dribbble', 'http://www.dribbble.com/ahujamanish'),
+         ('instagram', 'http://instagram.com/ahujagram'))
 
 # # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
