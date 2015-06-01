@@ -59,7 +59,6 @@ main header p {
   text-transform: uppercase;
 }
 main article {
-  /*max-width: 640px;*/
   padding: 40px;
 }
 main article div.article_text {
